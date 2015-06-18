@@ -1,3 +1,24 @@
+#===============================================================================
+#
+#          FILE:  align_and_call_targeted.py
+#
+#         USAGE:  python AlignCallTarget.py --pname TestProj --memlimit 4 sample_digest_file outfolder tmp_outvcf human_g1k_v37.no_unlocalized_contigs.fasta dbsnp_138.b37.vcf 2014.Takeda.new.intervals
+
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS:  ---
+#  REQUIREMENTS:  ---
+#          BUGS:  ---
+#         NOTES:  ---
+#        AUTHOR:  ——-
+#       COMPANY: ICNN, UCLA
+#       CREATED:  ——-
+#      REVISION: 06/10/2015
+#===============================================================================
+
+
+
 """
 Align fastqs for targeted sequencing, dedup them, indel realign, and then call the cohort
 
